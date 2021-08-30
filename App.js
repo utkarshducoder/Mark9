@@ -5,22 +5,26 @@ import { useState } from "react";
 const booklib = {
   Reallife: [
     { name: "Life is what You Make it", rating: "4.5/5" },
-    { name: "Beyond Illusion And Doubt", rating: "3.5/5" }
+    { name: "Beyond Illusion And Doubt", rating: "3.5/5" },
+     { name: "You will win", rating: "3/5" }
   ],
 
   fiction: [
     { name: "Shiva Trilogy", rating: "5/5" },
-    { name: "Study in Scarlet", rating: "4.5/5" }
+    { name: "Study in Scarlet", rating: "4.5/5" },
+    { name: "The fault in our star", rating: "4.5/5" }
   ],
 
   LifeStyle: [
     { name: "Rich Dad Poor Dad", rating: "4.5/5" },
-    { name: "7 Habbits of Highly Effective People", rating: "4.8/5" }
+    { name: "7 Habbits of Highly Effective People", rating: "4.8/5" },
+    { name: "Three Thousand Stiches", rating: "5/5" }
   ],
 
   NonFiction: [
     { name: "2 States", rating: "4/5" },
-    { name: "Revolution 2020", rating: "4.5/5" }
+    { name: "Revolution 2020", rating: "4.5/5" },
+    { name: "The End Of India", rating: "3/5" }
   ]
 };
 const movielib = {
@@ -31,7 +35,8 @@ const movielib = {
   ],
   Thriller: [
     { name: "Inception", rating: "4.8/5" },
-    { name: "Shutter Island", rating: "5/5" }
+    { name: "Shutter Island", rating: "5/5" },
+    { name: "The Sixth Sense", rating: "4/5" }
   ],
   Horror: [
     { name: "The Conjuring", rating: "5/5" },
